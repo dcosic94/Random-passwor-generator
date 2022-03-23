@@ -11,16 +11,15 @@ let inputFieldFour = document.getElementById('password-four');
 let result = []
 
 function randomNumber() {
-    let randomNumber = Math.floor(Math.random() * chars.length);
+    let randomNumber = Math.floor(Math.random() * chars.length); // kreira nasumicni broj izmedju 0 i duljine chars arrya
     return randomNumber;
 }
 
 function randomPassword() {
-  let random = [];
+  let random = []; // stvaramo novi array za spremanje znakova
   for (let i = 0; i < 8; i++) {
-    random.push(chars[randomNumber()]);
+    random.push(chars[randomNumber()]); // sprema u novi array znakove koje dolaze nasumicno radi randomNumber funkcije sve dok ne dode do zadane vrijednosti
   }
-
   random = random.join(""); // uklanja zareze iz vracenih vrijednosti
   return random;
 }
