@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    background:#1C1C1C;
+    font-family:'Inter', sans-serif;
+    color: #fff;
+}
+
+button {
+    border: none;
+    color: #fff;
+    background: none;
+}
+
+.container {
+    max-width: 55rem;
+    margin: 15rem auto;
+}
+
+section {
+    background-color: #1F2937;
+    padding: 5rem;
+}
+
+h1 {
+    font-family: 'Karla', sans-serif;
+    font-size: 4rem;
+    font-weight: 800;
+}
+.random-text {
+    color: #4ADF86;
+}
+
+p {
+    color: #D1D5DB;
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+
+.generate {
+    display: flex;
+    gap: 1rem;
+    font-size: 1.6rem;
+    font-weight: 500;
+    background-color: #10B981;
+    border-radius: 0.5rem;
+    padding: 1rem 1.7rem;
+    margin-top: 5rem ;
+    cursor: pointer;
+}
+
+hr {
+    height: 1px;
+    background-color: #2F3E53;
+    border: none;
+    margin: 5rem 0;
+    width: 96%;
+}
+
+.section-one input{
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #55F991;
+    background-color: #273549;
+    text-align: center;
+    border-radius: 0.5rem;
+    padding: 1rem 0.6rem;
+    border: none;
+    margin:0 1.5rem 2rem 0;
+
+}
+
+.section-two input{
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #55F991;
+    background-color: #273549;
+    text-align: center;
+    border-radius: 0.5rem;
+    padding: 1rem 0.6rem;
+    border: none;
+    margin:0 1.5rem 2rem 0;
+}
