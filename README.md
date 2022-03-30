@@ -1,6 +1,6 @@
 # Random password generator - second solo project on Scrimba
 
-This is a solution for the second solo project on Scrimba Frontend Developer Career Path. Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution for the second solo project on Scrimba Frontend Developer Career Path. 
 
 
 ### Built with
